@@ -7,6 +7,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const fakeStoreApi = createApi({
 
   reducerPath: "productApi",
+  // reducerPath: "userApi",
 
   baseQuery: fetchBaseQuery({}),
 

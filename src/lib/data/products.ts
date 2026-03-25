@@ -1,4 +1,4 @@
-import { Category, Product, ProductRequest, UploadResponse } from "@/types/productType";
+import { Category, Product, UploadResponse } from "@/types/productType";
 
 const baseAPI = process.env.NEXT_PUBLIC_API_URL;
 
